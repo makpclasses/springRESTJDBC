@@ -17,4 +17,11 @@ public class Employees
     public void setEmployeeList(List<Employee> employeeList) {
         this.employeeList = employeeList;
     }
+    
+    public int getCount(){
+	    	if(employeeList !=null)
+	    		return employeeList.size();
+	    	else
+	    		return 0;
+	    }
 }
